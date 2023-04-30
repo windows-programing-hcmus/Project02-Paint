@@ -1,0 +1,76 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>paint.ico</ApplicationIcon>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\color_wheel.png" />
+    <None Remove="Images\copy.png" />
+    <None Remove="Images\cut.png" />
+    <None Remove="Images\dash.png" />
+    <None Remove="Images\ellipse.png" />
+    <None Remove="Images\export.png" />
+    <None Remove="Images\fill.png" />
+    <None Remove="Images\import.png" />
+    <None Remove="Images\insert.png" />
+    <None Remove="Images\line.png" />
+    <None Remove="Images\new_file.png" />
+    <None Remove="Images\open.png" />
+    <None Remove="Images\paste.png" />
+    <None Remove="Images\rectangle.png" />
+    <None Remove="Images\redo.png" />
+    <None Remove="Images\save.png" />
+    <None Remove="Images\save_as.png" />
+    <None Remove="Images\thickness.png" />
+    <None Remove="Images\undo.png" />
+    <None Remove="Images\zoom_100.png" />
+    <None Remove="Images\zoom_in.png" />
+    <None Remove="Images\zoom_out.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="paint.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fluent.Ribbon" Version="9.0.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="PropertyChanged.Fody" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyContract\MyContract.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\color_wheel.png" />
+    <Resource Include="Images\copy.png" />
+    <Resource Include="Images\cut.png" />
+    <Resource Include="Images\dash.png" />
+    <Resource Include="Images\ellipse.png" />
+    <Resource Include="Images\export.png" />
+    <Resource Include="Images\fill.png" />
+    <Resource Include="Images\import.png" />
+    <Resource Include="Images\insert.png" />
+    <Resource Include="Images\line.png" />
+    <Resource Include="Images\new_file.png" />
+    <Resource Include="Images\open.png" />
+    <Resource Include="Images\paste.png" />
+    <Resource Include="Images\rectangle.png" />
+    <Resource Include="Images\redo.png" />
+    <Resource Include="Images\save.png" />
+    <Resource Include="Images\save_as.png" />
+    <Resource Include="Images\thickness.png" />
+    <Resource Include="Images\undo.png" />
+    <Resource Include="Images\zoom_100.png" />
+    <Resource Include="Images\zoom_in.png" />
+    <Resource Include="Images\zoom_out.png" />
+  </ItemGroup>
+
+</Project>
