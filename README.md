@@ -74,6 +74,6 @@ All basic features have been completed. In addition,  I have added some improved
 ## Self-assessment score
 **14 điểm** 
 
-## Link video demo
+## Link drive video demo
 
-not yet 
+https://drive.google.com/file/d/1MBvbeOsH52OSvTHrN7KClim9QqNtMf4V/view?usp=sharing
