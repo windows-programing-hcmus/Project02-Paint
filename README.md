@@ -77,3 +77,6 @@ All basic features have been completed. In addition,  I have added some improved
 ## Link drive video demo
 
 https://drive.google.com/file/d/1MBvbeOsH52OSvTHrN7KClim9QqNtMf4V/view?usp=sharing
+
+## Link github
+https://github.com/windows-programing-hcmus/Project02-Paint.git
